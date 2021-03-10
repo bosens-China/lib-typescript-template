@@ -20,6 +20,10 @@
 git clone https://github.com/bosens-China/lib-typescript-template.git
 cd lib-typescript-template
 yarn install
+# 更新git推送地址
+git remote rm origin
+git remote add origin [git地址]
+
 ```
 
 **tip**: 尽量使用 yarn 安装
